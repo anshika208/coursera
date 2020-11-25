@@ -1,0 +1,90 @@
+* {box-sizing: border-box;
+	
+}
+.all{width:100%;}
+.chicken , .beef , .shushi{float:left;}
+	h1{ font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+			font-weight: 40px;
+				text-align: center;}
+			p{ border:2px solid rgb(0,0,0);
+			 width:90% ;
+				padding:30px;
+		         height:auto;
+                 background-color: #00112222;
+				margin-right:auto;
+				margin-left: auto;}
+
+
+
+
+@media (min-width: 992px)
+{
+
+	.chicken{ position:relative;
+		width: 33.33%
+		}
+		
+.beef{ position:relative;
+		width: 33.33%
+		}
+		
+		.shushi{ position:relative;
+		width: 33.33%;}}
+
+@media(min-width: 768px ) and (max-width: 991px)	{.chicken{ position:relative;
+		width: 33.33%;
+		margin-left: 50px;
+		margin-right: 150px;
+         }
+         
+		
+.beef{ position:relative;
+		width: 33.33%
+		}
+		
+		.shushi{ position:relative;
+		width: 100%;
+	}
+
+}	
+@media(max-width: 767px)
+{.chicken{ position:relative;
+		width: 100%
+		}
+		
+.beef{ position:relative;
+		width: 100%
+		}
+		
+		.shushi{ position:relative;
+		width: 100%;}}
+		.chicken div{position:absolute;
+			top:15.7px;
+			right:25.5px;
+			width:auto;
+			font-family: cursive;
+			background-color: rgb(255,0,0);
+			color:black;
+			
+			border:2px solid rgb(0,0,0);
+			}
+.beef div{position:absolute;
+			top:15.7px;
+			right:25.5px;
+			width:auto;
+			font-family: cursive;
+			background-color: rgb(255,165,0);
+			color:black;
+		    border:2px solid rgb(0,0,0);
+			}
+			.shushi div{position:absolute;
+			top:15.7px;
+			right:25.5px;
+			width:auto;
+			padding:1px;
+			font-family: cursive;
+			background-color: #77ffee;
+			color:black;
+			
+			border:2px solid rgb(0,0,0);
+			}
